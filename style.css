@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+body{
+    background-color: rgb(143, 126, 249);
+}
+
+div.conteiner-nav{
+    width: 1200px;
+    background-color: aliceblue;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    background: transparent;
+   
+}
+
+div.logo{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px ;
+
+}
+
+nav div.menu{
+    font-size: 15px;
+    
+    
+
+}
+
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.isi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+    padding: 5px;
+    border: 1px solid  rgb(143, 126, 249);;
+    border-radius: 10px;
+}
+
+.isi:hover{
+    background-color: blue;
+    transition: 0.5s;
+    color: cadetblue;
+}
+
+
+.main-content{
+    margin: 0 30px;
+    padding: 40px 30px   ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.salam{
+    margin-top: 50px;
+}
+
+.keterangan{
+    text-align: justify;
+    font-size: 9px;
+}
+
+.coment{
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
+div.btn{
+    font-size: 15px;
+    margin: 1 10px;
+    margin-top : 70px;
+    
+}
+
+.btn a{
+    border: 1px solid rgb(143, 126, 249);
+    border-radius: 10px;
+    background-color:rgb(143, 126, 249);
+    color: rebeccapurple    ;
+}
+
+.btn a:hover{
+    background-color: blue;
+    transition: 0.4s;
+}
